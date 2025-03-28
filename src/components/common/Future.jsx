@@ -19,7 +19,7 @@ export default function Future() {
                             <li className="flex items-start">Our parent company, TinyCheque, is dedicated to driving AI advancements and creating meaningful solutions that redefine industries.
                                 India is innovating, and we’re leading the charge.</li>
                         </ul>
-                        <CommonButton title="Try PreCallAi Today" />
+                        <CommonButton title="Try QCall.ai Today" />
                     </div>
                     <div className="md:w-1/2 flex justify-center items-center p-4">
                         <Image src="/mnt/data/image.png" alt="Chat AI" width={450} height={300} className="w-full h-auto rounded-lg border border-gray-200 shadow-md" />

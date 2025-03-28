@@ -34,7 +34,7 @@ export default function Navbar() {
                 </Link>
                 {item.hasChildren && (
                   <div className="absolute left-0 bg-[#11121c] min-w-[600px] text-white rounded-2xl shadow-lg p-4 hidden group-hover:flex flex-col">
-                    <h3 className="text-sm text-gray-400 mb-3">AI Product Offer by PreCallAI</h3>
+                    <h3 className="text-sm text-gray-400 mb-3">AI Product Offer by QCall.ai</h3>
 
                     {/* Grid Layout for Submenu */}
                     <div className="grid grid-cols-2 gap-1">
@@ -48,7 +48,7 @@ export default function Navbar() {
 
                             <div>
                               <p className="text-sm">{sub.text}</p>
-                              <p className="text-xs text-gray-400">Short description</p>
+                              <p className="text-xs text-gray-400">{sub.sortDec}</p>
                             </div>
                           </Link>
                           <div className="p1 rounded-full border border-gray-500">

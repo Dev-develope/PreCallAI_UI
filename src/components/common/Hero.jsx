@@ -17,10 +17,10 @@ function Hero({ data, children }) {
                                 {data?.heading}
                             </p>
 
-                            <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold">
+                            <h1 className="text-2xl sm:text-4xl md:text-5xl font-light">
                                 {data?.h1}
                             </h1>
-                            <h2 className="text-lg sm:text-2xl md:text-3xl font-light mt-2">
+                            <h2 className="text-2xl sm:text-4xl md:text-5xl font-light mt-2">
                                 {data?.h2}
                             </h2>
 

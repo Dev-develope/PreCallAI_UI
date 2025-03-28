@@ -5,7 +5,7 @@ export default function Images({path}) {
             <div className="flex justify-center container mx-auto">
                 <Image
                     src="/your-image.png"
-                    alt="PreCallAI Demo"
+                    alt="QCall.ai Demo"
                     width={825}
                     height={300}
                     className="rounded-lg shadow-lg bg-amber-100 py-5"

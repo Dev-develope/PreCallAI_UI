@@ -20,10 +20,10 @@ export default function Pricing() {
                     Pricing
                 </span>
                 <h1 className="text-[clamp(1.5rem,4vw,2.5rem)] font-bold mt-4">
-                    PreCallAI costs start from <br /> $0.03 per minute.
+                    QCall.ai costs start from <br /> $0.03 per minute.
                 </h1>
                 <p className="text-xs mt-2 max-w-md">
-                    Try PreCallAI free for 14 days and explore why hundreds of companies
+                    Try QCall.ai free for 14 days and explore why hundreds of companies
                     big and small stay connected with QCall.
                 </p>
                 <CommonButton title="Explore more plans" className="text-sm mt-6 bg-purple-600 hover:bg-purple-700 rounded-full"/>

@@ -18,7 +18,7 @@ export default function FinalThuoght() {
                             Final Thoughts
                         </h2>
                         <p className="text-md  mt-4 max-w-xl">
-                            PreCallAI isn’t just another AI solution—it’s your next big advantage.
+                            QCall.ai isn’t just another AI solution—it’s your next big advantage.
                             Whether you’re in BPO, Real Estate, SaaS, BFSI, EdTech, or any business needing smarter calls, we’ve got you covered.
                         </p>
                         <p className="mt-4">The future of AI-powered conversations starts NOW.</p>

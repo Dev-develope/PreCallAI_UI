@@ -1,11 +1,3 @@
-// import CommonCard from "src/components/common/CommonCard";
-// import CommonCardB from "src/components/common/CommonCardB";
-// export default function page() {
-//     return (<>
-//         <CommonCard />
-//         <CommonCardB />
-//     </>)
-
 import AiFeatures from "src/components/common/AiFeatures";
 import CommonCard from "src/components/common/CommonCard";
 import CommonCardB from "src/components/common/CommonCardB";
@@ -14,14 +6,14 @@ import Hero from "src/components/common/Hero";
 import LogoSlider from "src/components/common/LogoSlider";
 import Pricing from "src/components/common/Pricing";
 import SingleButton from "src/components/common/SingleButton";
-import { AiContactHeroData, cardDataA, cardDataB, cardDataC, cardDataD, cardDataE, cardDataF } from "src/constants/ai_contact_center";
-// }
+import { cardDataA, cardDataB, cardDataC, cardDataD, cardDataE, cardDataF } from "src/constants/ai_contact_center";
+import { HomeHeroSectionData } from "src/constants/HomeHeroSectionData";
+
 export default function page() {
     return (<>
-        <Hero data={AiContactHeroData[0]}>
+        <Hero data={HomeHeroSectionData[0]}>
             <SingleButton title="Schedule a Demo" />
         </Hero>
-
         <LogoSlider />
         <AiFeatures />
         <CommonCard cardDatas={cardDataA} />
@@ -32,15 +24,5 @@ export default function page() {
         <CommonCardB cardDatas={cardDataF} />
         <Pricing />
         <Exploring />
-
-        {/* <CardItem2 /> */}
-        {/* <CardItem3 /> */}
-        {/* <Language /> */}
-        {/* <Steps /> */}
-        {/* <AiMythsSection /> */}
-        {/* <Future /> */}
-        {/* <UpgradeSection /> */}
-        {/* <FinalThuoght /> */}
-        {/* <Faq /> */}
     </>)
 }

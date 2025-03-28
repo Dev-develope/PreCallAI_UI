@@ -1,3 +1,15 @@
+export const AiContactHeroData = [
+    {
+        id: 1,
+        heading: "Ai contact center",
+        h1: "A new Way Of",
+        h2: "Calling Task",
+        // para2: "Say Goodbye to Repetitive Calls. Let AI Handle It",
+        para3: "Accelarate customer satisfation while simplifying operation of calling tasks.Enhance the Customer experience with the  AI Contact Center"
+    }
+];
+
+
 export const cardDataA = [
     {
         span: "Empower Agents & Enhance Confidence",

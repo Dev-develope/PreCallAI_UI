@@ -37,7 +37,7 @@ export default function Steps() {
           </div>
         </div>
         <p className="text-center text-gray-700 mt-8">It’s that simple!</p>
-        <CommonButton title="Try PreCallAI Today" className="rounded-full bg-purple-500 text-white text-sm mt-5"/>
+        <CommonButton title="Try QCall.ai Today" className="rounded-full bg-purple-500 text-white text-sm mt-5"/>
       </div>
     );
   }

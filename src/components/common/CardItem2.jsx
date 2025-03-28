@@ -9,7 +9,7 @@ export default function CardItem2() {
                     Use Cases
                 </span>
                 <h2 className="text-[clamp(1.25rem,5vw,2rem)] font-bold text-gray-900 mt-4 text-center">
-                    Who can benefit from PreCallAI
+                    Who can benefit from QCall.ai
                 </h2>
                 <p className="text-gray-600 mt-2 text-[clamp(0.875rem,3vw,1rem)] max-w-md">
                     Sales & Lead generation - Automated cold calls, qualify leads,
@@ -29,7 +29,7 @@ export default function CardItem2() {
                 ))}
             </div>
             <p className="text-gray-600 text-[clamp(1rem,3vw,1.25rem)] mt-5 max-w-md">
-                If your business relies on calls, PreCallAI is your GameChanger.
+                If your business relies on calls, QCall.ai is your GameChanger.
             </p>
             <div className="mt-5">
                 <CommonButton className="text-white bg-purple-600 px-6 py-3 rounded-full text-[clamp(0.875rem,2vw,1rem)]" title="Request a Demo" />

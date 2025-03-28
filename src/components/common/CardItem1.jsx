@@ -6,7 +6,7 @@ export default function CardItem1() {
    
             <div className="flex flex-col items-center"> 
                 <span className="px-4 py-1 border border-gray-300 rounded-full text-xs text-black">
-                What Matters At PreCallAI
+                What Matters At QCall.ai
                 </span>
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-4">
                     We simplify your calling actions

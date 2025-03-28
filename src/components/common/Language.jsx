@@ -10,10 +10,10 @@ export default function Language() {
                            Speak their Language
                         </span>
                         <h2 className="text-2xl font-bold text-gray-800 mt-4">
-                            PreCallAI Supports <br />Multiple Languages
+                            QCall.ai Supports <br />Multiple Languages
                         </h2>
                         <ul className="mt-4 space-y-2 text-gray-600">
-                            <li className="flex items-start">Whether your audience speaks English, Spanish, Hindi, Gujarati, Bengali, Tamil, Kannada, Marathi, or more, PreCallAI handles conversations naturally in multiple languages.</li>
+                            <li className="flex items-start">Whether your audience speaks English, Spanish, Hindi, Gujarati, Bengali, Tamil, Kannada, Marathi, or more, QCall.ai handles conversations naturally in multiple languages.</li>
                         </ul>
                         <p className="mt-2 text-sm text-gray-400 max-w-sm">
                             Need a custom voice or regional dialect? We'll train it specifically for you!

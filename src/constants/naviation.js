@@ -87,7 +87,7 @@ export const cardData3 = [
     id: 2,
     icon: "icon",
     Heading: "Cut Costs by 70-80%",
-    para1: "Eliminate the need for large call center teams—PreCallAI.ai delivers scalable AI-powered calls at a fraction of the cost.",
+    para1: "Eliminate the need for large call center teams—QCall.ai.ai delivers scalable AI-powered calls at a fraction of the cost.",
   },
   {
     id: 3,
@@ -195,35 +195,35 @@ export const partner = [
 export const faqs = [
   {
     id: 1,
-    title: "What is PreCallAI ?",
+    title: "What is QCall.ai ?",
     content:
-      "PreCallAI is a platform that automates sales and customer interactions using AI-powered voice bots. It enhances call center operations, manages inbound and outbound calls, and integrates advanced Natural Language Processing (NLP) to understand and respond to customer queries efficiently.",
+      "QCall.ai is a platform that automates sales and customer interactions using AI-powered voice bots. It enhances call center operations, manages inbound and outbound calls, and integrates advanced Natural Language Processing (NLP) to understand and respond to customer queries efficiently.",
     active: false,
   },
   {
     id: 2,
-    title: "What are the main features of PreCallAI ?",
+    title: "What are the main features of QCall.ai ?",
     content:
       "Key features include automated inbound and outbound calls, multilingual support, AI-driven call routing, lead prioritization, detailed analytics and reporting, and seamless integration with other systems.",
     active: false,
   },
   {
     id: 3,
-    title: "How do I create an account on PreCallAI ?",
+    title: "How do I create an account on QCall.ai ?",
     content:
-      "To create an account, visit the PreCallAI website, click on the 'Sign Up' button, and follow the instructions to complete the registration process.",
+      "To create an account, visit the QCall.ai website, click on the 'Sign Up' button, and follow the instructions to complete the registration process.",
     active: false,
   },
   {
     id: 4,
-    title: "What are the first steps after signing up for PreCallAI ?",
+    title: "What are the first steps after signing up for QCall.ai ?",
     content:
       "After signing up, you should configure your account settings, set up inbound and outbound call workflows, integrate with your CRM if needed, and customize your call routing rules.",
     active: false,
   },
   {
     id: 5,
-    title: "How do I set up inbound AI calls on PreCallAI ?",
+    title: "How do I set up inbound AI calls on QCall.ai ?",
     content:
       "To set up inbound AI calls, log in to your account, navigate to the inbound call settings, configure the call routing rules, and customize the AI responses as needed.",
     active: false,
@@ -251,9 +251,9 @@ export const faqs = [
   },
   {
     id: 9,
-    title: "How does PreCallAI ensure data security ?",
+    title: "How does QCall.ai ensure data security ?",
     content:
-      "PreCallAI employs robust encryption protocols, secure storage solutions, and stringent access controls to protect customer data from unauthorized access.",
+      "QCall.ai employs robust encryption protocols, secure storage solutions, and stringent access controls to protect customer data from unauthorized access.",
     active: false,
   },
   {
@@ -273,12 +273,19 @@ export const menuItems = [
     url: "#",
     subMenu: [
       {
-        text: "Inbound AI Calls",
-        url: "/inbound-ai-calls",
+        text: "Ai Contact Center",
+        url: "/ai-contact-center",
+        sortDec: "OmniChannel Customer Service"
       },
       {
-        text: "Outbound AI Calls",
+        text: "Ai Sales",
         url: "/outbound-ai-calls",
+        sortDec: "Ai Enable Series OutReach"
+      },
+      {
+        text: "Ai Communication",
+        url: "/outbound-ai-calls",
+        sortDec: "Call Message & meet in one App"
       },
     ],
     hasChildren: true,
@@ -289,16 +296,54 @@ export const menuItems = [
     url: "#",
     subMenu: [
       {
-        text: "AI Caller & Phone Service",
-        url: "/phone-service",
+        text: "Insurance",
+        url: "/insurance",
+        sortDec: "mordenize and maintain processing and customer inquiries"
       },
       {
-        text: "AI for Call Centers",
-        url: "/call-centers-service",
+        text: "Education",
+        url: "/education",
+        sortDec: "Automate Appointment Reminder & follow Ups"
       },
       {
-        text: "AI for Customer Centers",
-        url: "/customer-service",
+        text: "HealthCare",
+        url: "/health-care",
+        sortDec: "Automate Appointment Reminder & follow Ups"
+      },
+      {
+        text: "Real-Estate",
+        url: "/real-estate",
+        sortDec: "Imporove lead follow ups & property view Schedule"
+      },
+      {
+        text: "Recruiting",
+        url: "/recruiting",
+        sortDec: "Automate Candidate OutReach & interview Schedule"
+      },
+      {
+        text: "Technology",
+        url: "/health-care",
+        sortDec: "Improve Client Communication & meeting reminder"
+      },
+      {
+        text: "HealthCare",
+        url: "/health-care",
+        sortDec: "Automate Appointment Reminder & follow Ups"
+      },
+      {
+        text: "Legal",
+        url: "/legal",
+        sortDec: "Improve Client Communication & meeting reminder"
+      },
+      {
+        text: "Retail",
+        url: "/retail",
+        sortDec: "Manage Order Confirmation & customer inquiries "
+      },
+      {
+        text: "Automate",
+        url: "/automate",
+        sortDec: "Imporove lead follow ups & property view Schedule"
       },
     ],
     hasChildren: true,
@@ -309,60 +354,24 @@ export const menuItems = [
     url: "#",
     subMenu: [
       {
-        text: "E-commerce",
-        url: "/ecommerce",
+        text: "Blog",
+        url: "/blog",
+        sortDec: "Managing your Account Safety and security"
       },
       {
-        text: "Financial services",
-        url: "/financial",
+        text: "Comparisons",
+        url: "/comparisons",
+        sortDec: "Generate a side by side Comparision"
       },
       {
-        text: "Gambling & casinos",
-        url: "/gambling",
+        text: "Partners",
+        url: "/partners",
+        sortDec: "As a partner you will gain access to cutting-edge Reasearch"
       },
       {
-        text: "Polls & surveys",
-        url: "/polls",
-      },
-      {
-        text: "Municipalities & Utilities",
-        url: "/municipalities",
-      },
-      {
-        text: "Gaming",
-        url: "/gaming",
-      },
-      {
-        text: "Real estate",
-        url: "/real-estate",
-      },
-      {
-        text: "Retail & SMBs",
-        url: "/retail",
-      },
-      {
-        text: "Tech & SaaS",
-        url: "/tech-saas",
-      },
-      {
-        text: "Agriculture",
-        url: "/agriculture"
-      },
-      {
-        text: "Healthcare",
-        url: "/healthcare"
-      },
-      {
-        text: "Travel and Tourism",
-        url: "/travel"
-      },
-      {
-        text: "Education",
-        url: "/education"
-      },
-      {
-        text: "Automobile",
-        url: "/automobile"
+        text: "Help Centers",
+        url: "/help-centers",
+        sortDec: "Manging your Account,Safety And security"
       }
     ],
     hasChildren: true,
@@ -432,63 +441,63 @@ export const herocardData = [
 
 
 export const footerData = {
-    logo: {
-        src: "/images/PreCallAI-logo.png",
-        alt: "PreCallAI.ai",
-        tagline: "Quick | Quality | Queue-Free"
+  logo: {
+    src: "/images/QCall.ai-logo.png",
+    alt: "QCall.ai.ai",
+    tagline: "Quick | Quality | Queue-Free"
+  },
+  sections: [
+    {
+      title: "Company",
+      links: [
+        { name: "Home", href: "/" },
+        { name: "About Us", href: "/about" },
+        { name: "Contact Us", href: "/contact" },
+        { name: "Privacy Policy", href: "/privacy" },
+        { name: "Terms of Use", href: "/terms" }
+      ]
     },
-    sections: [
-        {
-            title: "Company",
-            links: [
-                { name: "Home", href: "/" },
-                { name: "About Us", href: "/about" },
-                { name: "Contact Us", href: "/contact" },
-                { name: "Privacy Policy", href: "/privacy" },
-                { name: "Terms of Use", href: "/terms" }
-            ]
-        },
-        {
-            title: "AI Products",
-            links: [
-                { name: "AI Contact Center", href: "/products/contact-center" },
-                { name: "AI Sales", href: "/products/sales" },
-                { name: "AI Communication", href: "/products/communication" }
-            ]
-        },
-        {
-            title: "Solutions by Industries",
-            links: [
-                { name: "Insurance", href: "/industries/insurance" },
-                { name: "Education", href: "/industries/education" },
-                { name: "Healthcare", href: "/industries/healthcare" },
-                { name: "Real Estate", href: "/industries/real-estate" },
-                { name: "Recruiting", href: "/industries/recruiting" },
-                { name: "Technology", href: "/industries/technology" },
-                { name: "Professional Services", href: "/industries/professional-services" },
-                { name: "Retail", href: "/industries/retail" },
-                { name: "Automotive", href: "/industries/automotive" }
-            ]
-        },
-        {
-            title: "Resources",
-            links: [
-                { name: "Pricing", href: "/pricing" },
-                { name: "Partnership", href: "/partnership" },
-                { name: "Comparison", href: "/comparison" },
-                { name: "Enterprise Solution", href: "/enterprise" }
-            ]
-        }
-    ],
-    contact: {
-        phone: "+1-762-583-8255",
-        email: "support@PreCallAI.ai",
-        socials: [
-            { icon: Facebook, href: "https://facebook.com/PreCallAI" },
-            { icon: Linkedin, href: "https://linkedin.com/company/PreCallAI" },
-            { icon: Twitter, href: "https://x.com/PreCallAI" },
-            { icon: Instagram, href: "https://instagram.com/PreCallAI" }
-        ]
+    {
+      title: "AI Products",
+      links: [
+        { name: "AI Contact Center", href: "/products/contact-center" },
+        { name: "AI Sales", href: "/products/sales" },
+        { name: "AI Communication", href: "/products/communication" }
+      ]
     },
-    copyright: "©2025 | All rights reserved by PreCallAI AI"
+    {
+      title: "Solutions by Industries",
+      links: [
+        { name: "Insurance", href: "/industries/insurance" },
+        { name: "Education", href: "/industries/education" },
+        { name: "Healthcare", href: "/industries/healthcare" },
+        { name: "Real Estate", href: "/industries/real-estate" },
+        { name: "Recruiting", href: "/industries/recruiting" },
+        { name: "Technology", href: "/industries/technology" },
+        { name: "Professional Services", href: "/industries/professional-services" },
+        { name: "Retail", href: "/industries/retail" },
+        { name: "Automotive", href: "/industries/automotive" }
+      ]
+    },
+    {
+      title: "Resources",
+      links: [
+        { name: "Pricing", href: "/pricing" },
+        { name: "Partnership", href: "/partnership" },
+        { name: "Comparison", href: "/comparison" },
+        { name: "Enterprise Solution", href: "/enterprise" }
+      ]
+    }
+  ],
+  contact: {
+    phone: "+1-762-583-8255",
+    email: "support@QCall.ai.ai",
+    socials: [
+      { icon: Facebook, href: "https://facebook.com/QCall.ai" },
+      { icon: Linkedin, href: "https://linkedin.com/company/QCall.ai" },
+      { icon: Twitter, href: "https://x.com/QCall.ai" },
+      { icon: Instagram, href: "https://instagram.com/QCall.ai" }
+    ]
+  },
+  copyright: "©2025 | All rights reserved by QCall.ai AI"
 };

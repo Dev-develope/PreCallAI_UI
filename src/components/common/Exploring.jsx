@@ -8,7 +8,7 @@ export default function Exploring() {
 
                     <div className="d-flex flex-col justify-center items-center">
                         <h2 className="text-3xl font-bold mt-4 text-black">
-                            Start Exploring PreCallAi with Free Trial
+                            Start Exploring QCall.ai with Free Trial
                         </h2>
                         <p className="mt-4 max-w-2xl mx-auto  text-sm sm:text-base">
                             Experience expectaional support deom our dedicated team who are ready to assist you <br />around the clock.Explore our support center for a wealth of self learrning resources.

@@ -10,7 +10,7 @@ export default function CardItem3() {
                         Key Benefits
                     </span>
                     <h2 className="text-[clamp(1.25rem,5vw,2rem)] font-bold text-gray-900 mt-4 text-center">
-                        Why Choose PreCallAI?
+                        Why Choose QCall.ai?
                     </h2>
                     <p className="text-gray-600 text-lg mt-2 max-w-2xl text-center">
                         To increase engagement and drive results.

@@ -26,7 +26,7 @@ export default function AiMythsSection() {
             <p className="text-gray-600 mt-6">
                 <span className="font-medium">Smarter Workflows</span> = <span className="font-medium">Better Efficiency</span> = <span className="font-medium">More Revenue</span>
             </p>
-            <CommonButton title="Try PrecallAI today" className="bg-purple-500 mt-5 text-white text-sm rounded-full"/>
+            <CommonButton title="Try QCall.ai today" className="bg-purple-500 mt-5 text-white text-sm rounded-full"/>
          
         </section>
     );
