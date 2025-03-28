@@ -11,7 +11,7 @@ export default function FinalThuoght() {
                     ></div>
 
                     <div className="relative z-10 flex flex-col items-center ">
-                        <span className="px-4 py-1 border border-green-300 rounded-full text-xs bg-black/50">
+                        <span className="px-4 py-1 border border-green-300 rounded-full text-xs">
                             Upgrade
                         </span>
                         <h2 className="text-[clamp(1.5rem,4vw,2.5rem)] font-bold mt-4">

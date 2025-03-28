@@ -14,6 +14,7 @@ import LogoSlider from "src/components/common/LogoSlider";
 import Pricing from "src/components/common/Pricing";
 import Steps from "src/components/common/Steps";
 import UpgradeSection from "src/components/common/UpgradeSection";
+import { pricingPlans } from "src/constants/ai_contact_center";
 // import VideoComponent from "src/components/common/VideoComponent";
 import { HomeHeroSectionData } from "src/constants/HomeHeroSectionData";
 export default function Home() {
@@ -34,7 +35,7 @@ export default function Home() {
       <Future />
       <UpgradeSection />
       <FinalThuoght />
-      <Pricing />
+      <Pricing pricingPlans={pricingPlans}/>
       <Faq />
       <Exploring />
     </>

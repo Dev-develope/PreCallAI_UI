@@ -61,18 +61,6 @@ export const cardData2 = [
     Heading: "survey and feedback Calls",
     para1: "provide 24/7 AI-Powered assistance without increasing staff costing",
 
-  },
-  {
-    id: 4,
-    icon: "icon",
-    Heading: "Collection and Reminders",
-    para1: "provide 24/7 AI-Powered assistance without increasing staff costing",
-  },
-  {
-    id: 5,
-    icon: "icon",
-    Heading: "Hr and Recruitment",
-    para1: "provide 24/7 AI-Powered assistance without increasing staff costing",
   }
 ]
 
@@ -279,12 +267,12 @@ export const menuItems = [
       },
       {
         text: "Ai Sales",
-        url: "/outbound-ai-calls",
+        url: "/ai-sales",
         sortDec: "Ai Enable Series OutReach"
       },
       {
         text: "Ai Communication",
-        url: "/outbound-ai-calls",
+        url: "/ai-communication",
         sortDec: "Call Message & meet in one App"
       },
     ],

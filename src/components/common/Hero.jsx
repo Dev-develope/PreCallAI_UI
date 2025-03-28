@@ -3,10 +3,9 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import HeroCard from "./HeroCard";
 // import HeroCard from "./HeroCard";
-
-function Hero({ data, children }) {
-     const path = usePathname()
-     const isHomePage = path==="/"
+function Hero({ data, children, herocardData }) {
+    const path = usePathname()
+    const isHomePage = path === "/"
     return (
         <>
             <div className="bg-gradient-to-b from-[rgb(18,0,43)] to-[#240046]">
@@ -27,7 +26,7 @@ function Hero({ data, children }) {
                             <p className="mt-4 max-w-2xl mx-auto text-gray-300 text-sm sm:text-base ">
                                 {data?.para2}
                             </p>
-                            <p className="mt-4 max-w-2xl mx-auto text-gray-300 text-xs">
+                            <p className="mt-4 max-w-80 mx-auto text-gray-300 text-xs">
                                 {data?.para3}
                             </p>
 
@@ -42,11 +41,11 @@ function Hero({ data, children }) {
                     // Show Hero UI only on Home Page
                     <div className="h-[28rem] w-full sm:w-4/5 md:w-3/5 lg:w-2/3 flex justify-center items-center bg-white rounded-2xl shadow-lg p-4">
                         <span className="text-gray-600 font-medium text-xs sm:text-sm">
-                            <video></video>
+
                         </span>
                     </div>
                 ) : (
-                    <HeroCard />
+                    <HeroCard herocardData={herocardData} />
                 )}
             </div>
         </>

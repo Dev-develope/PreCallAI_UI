@@ -1,14 +1,15 @@
 import Image from "next/image";
-export default function Images({path}) {
+// import img from "../../../public/images/pexels-cottonbro-6153343 (1).jpg"
+export default function Images({ path }) {
     return (<>
-        <div className="mt-[1.5rem]">
+        <div className="mt-[1rem]">
             <div className="flex justify-center container mx-auto">
                 <Image
-                    src="/your-image.png"
+                    src="/path"
                     alt="QCall.ai Demo"
-                    width={825}
-                    height={300}
-                    className="rounded-lg shadow-lg bg-amber-100 py-5"
+                    width={968}
+                    height={400}
+                    className="rounded-lg shadow-lg bg-amber-100 object-fill w-full"
                 />
             </div>
         </div>

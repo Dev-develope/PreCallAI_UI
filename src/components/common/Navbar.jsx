@@ -20,7 +20,7 @@ export default function Navbar() {
         <div className="flex items-center w-1/2 justify-around space-x-8">
           <Link href="/">
             <div className="text-white font-bold text-xl flex items-center">
-              <span className="text-blue-400">PreCall</span>.Ai
+              <span className="text-blue-400">Q</span>Call.Ai
             </div>
             <p className="text-[10px] text-gray-400">Quick | Quality</p>
           </Link>
@@ -39,7 +39,7 @@ export default function Navbar() {
                     {/* Grid Layout for Submenu */}
                     <div className="grid grid-cols-2 gap-1">
                       {item.subMenu.map((sub, index) => (
-                        <div key={sub.url} className="flex items-center justify-between border rounded-2xl w-60 bg-[#171825] pl-2 pr-2 hover:bg-gray-800">
+                        <div key={index} className="flex items-center justify-between border rounded-2xl w-60 bg-[#171825] pl-2 pr-2 hover:bg-gray-800">
                           <Link href={sub.url} className="flex items-center space-x-3 p-2 rounded-2xl  transition">
                             {index % 4 === 0 && <LayoutGrid size={20} />}
                             {index % 4 === 1 && <Settings size={20} />}

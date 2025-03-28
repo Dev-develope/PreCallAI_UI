@@ -9,7 +9,24 @@ export const AiContactHeroData = [
     }
 ];
 
+export const pricingPlans = [
+    {
+        id: 1,
+        label: "Pricing",
+        title: "QCall.ai costs start from $0.03 per minute.",
+        description: "Try QCall.ai free for 14 days and explore why hundreds of companies big and small stay connected with QCall.",
+        buttonText: "Explore more plans",
+    },
+];
 
+export const HumanLikeVoice = [
+    {
+        id: 1,
+        label: "",
+        title: "Human Like Voice agent to Handle incoming calls. Non-stop",
+        buttonText: "Create your Ai agent in 30 Seconds",
+    },
+]
 export const cardDataA = [
     {
         span: "Empower Agents & Enhance Confidence",
@@ -58,3 +75,30 @@ export const cardDataF = [
         imageSrc: "/mnt/data/image.png"
     }
 ]
+
+
+export const herocardData = [{
+    sectionTitle : "What Achievement At Qcall.ai",
+    mainHeading : "Full operational capability from scratch",
+    subHeading : "to improve engagement and drive results.",
+    cards : [
+        {
+          title: "Rapidly Launch",
+          description:
+            "Establish new contact centres globally in just minutes, managing all your agents seamlessly from a single platform.",
+          extraText: "Quick support center",
+        },
+        {
+          title: "Agents and Customers",
+          description:
+            "Empower agents to easily call, message, and meet with customers, allowing seamless transfers to their preferred devices through one AI-driven application.",
+          extraText: "Connect Accross All Channels",
+        },
+        {
+          title: "Tech Stack",
+          description:
+            "Reduce expenses and enhance efficiency by consolidating multiple contact centre tools into one powerful platform.",
+          extraText: "Stream line and boost profits",
+        },
+      ]
+}]

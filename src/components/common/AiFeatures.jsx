@@ -34,7 +34,7 @@ export default function AiFeatures() {
   const [activeTab, setActiveTab] = useState("ai-voice");
 
   return (
-    <div className="bg-[#e6eff8] min-h-screen flex flex-col items-center justify-center px-4 overflow-auto">
+    <div className="bg-[#e6eff8] h-[35rem] flex flex-col items-center justify-center px-4 overflow-auto">
 
       {/* Scrollable Tabs */}
       <div className="flex justify-center item-center md:justify-start space-x-4 bg-white p-2 rounded-full shadow-md mb-6 w-full max-w-md md:max-w-lg lg:max-w-84 overflow-x-hidden mt-5">
@@ -52,11 +52,8 @@ export default function AiFeatures() {
         ))}
       </div>
 
+      <div className="flex flex-col md:flex-row items-center max-w-4xl  space-x-8 p-4 md:p-6 rounded-2xl w-full mb-5">
 
-      {/* Content */}
-      <div className="flex flex-col md:flex-row items-center max-w-4xl  p-4 md:p-6 rounded-2xl w-full mb-5">
-
-        {/* Image Section */}
         <div className="w-full md:w-1/2 flex justify-center">
           <Image
             src={tabs.find((tab) => tab.id === activeTab)?.image}
