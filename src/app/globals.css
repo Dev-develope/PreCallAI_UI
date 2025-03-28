@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* @media (max-width: 319px) {
+  .hero-mobile {
+    margin-top: -5rem;
+    border:"2px solid red"
+  }
+} */
