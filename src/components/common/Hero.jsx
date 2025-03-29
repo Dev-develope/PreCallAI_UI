@@ -16,7 +16,7 @@ function Hero({ data, children, herocardData }) {
                                 {data?.heading}
                             </p>
 
-                            <h1 className="text-2xl sm:text-4xl md:text-5xl font-light">
+                            <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold">
                                 {data?.h1}
                             </h1>
                             <h2 className="text-2xl sm:text-4xl md:text-5xl font-light mt-2">

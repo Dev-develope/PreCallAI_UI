@@ -98,3 +98,4 @@ export default function Navbar() {
 }
 
 
+rgb(124 82 251)

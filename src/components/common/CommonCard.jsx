@@ -1,17 +1,16 @@
 'use client';
 
 import Image from 'next/image';
-import { useState } from 'react';
-import { cardDataA } from 'src/constants/ai_contact_center';
+import img from "../../../public/images/AiImage.PNG"
 
-export default function CommonCard({cardDatas}) {
-    
+export default function CommonCard({ cardDatas }) {
+
 
     return (
         <div className="container mx-auto p-4 flex justify-center items-center">
             {cardDatas.map((card, index) => (
-                <div key={index} className="flex flex-col md:flex-row bg-white overflow-hidden p-6">
-                    <div className="md:w-1/2 flex flex-col justify-center p-6">
+                <div key={index} className="flex flex-col md:flex-row bg-white overflow-hidden p-6 justify-center items-center">
+                    <div className="md:w-1/3 flex flex-col justify-center p-6">
                         <span className="text-xs px-3 py-1 rounded-full border border-gray-500 self-start">
                             {card.span}
                         </span>
@@ -21,19 +20,19 @@ export default function CommonCard({cardDatas}) {
                         <ul className="mt-4 space-y-2 text-gray-600">
                             {card.list.map((item, listIndex) => (
                                 <li key={listIndex} className="flex items-start">
-                                    <span className="text-purple-500 mr-2">&#10003;</span> 
+                                    <span className="text-purple-500 mr-2">&#10003;</span>
                                     {item.text}
                                 </li>
                             ))}
                         </ul>
                     </div>
-                    <div className="md:w-1/2 flex justify-center items-center p-4">
-                        <Image 
-                            src={card.imageSrc} 
-                            alt="Chat AI" 
-                            width={500} 
-                            height={300} 
-                            className="w-full h-auto rounded-lg border border-gray-200 shadow-md" 
+                    <div className="md:w-1/3 flex justify-center items-center">
+                        <Image
+                            src={img}
+                            alt="Chat AI"
+                            width={400}
+                            height={250}
+                            className="rounded-xl border border-gray-200 shadow-md object-contain p-2"
                         />
                     </div>
                 </div>

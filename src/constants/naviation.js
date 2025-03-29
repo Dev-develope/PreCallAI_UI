@@ -320,7 +320,7 @@ export const menuItems = [
       },
       {
         text: "Legal",
-        url: "/legal",
+        url: "/legal-profesional",
         sortDec: "Improve Client Communication & meeting reminder"
       },
       {
