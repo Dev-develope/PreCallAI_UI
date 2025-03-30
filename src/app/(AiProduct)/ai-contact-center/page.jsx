@@ -26,7 +26,7 @@ export default function page() {
         <CommonCard cardDatas={cardDataE} />
         <CommonCardB cardDatas={cardDataF} />
         <div className="flex justify-center items-center mt-1 mb-10">
-            <CommonButton className="bg-purple-500 font-light text-white" title="try it now for free!!!"/>
+            <CommonButton className="bg-[#7c52fb] font-light text-white" title="try it now for free!!!"/>
         </div>
         <Pricing pricingPlans={pricingPlans} />
         <Exploring />

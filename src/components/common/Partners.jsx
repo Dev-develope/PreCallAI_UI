@@ -52,7 +52,7 @@ export default function Partners() {
           >
             {partners.map((elm, i) => (
               <SwiperSlide
-                key={i}
+                key={elm.id}
                 className="flex items-center justify-center opacity-70 hover:opacity-100 transition-opacity duration-300"
               >
                 <Image

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import HeroCard from "./HeroCard";
 // import HeroCard from "./HeroCard";
-function Hero({ data, children, herocardData }) {
+function Hero({ data, children, herocardData,className }) {
     const path = usePathname()
     const isHomePage = path === "/"
     return (
@@ -26,7 +26,7 @@ function Hero({ data, children, herocardData }) {
                             <p className="mt-4 max-w-2xl mx-auto text-gray-300 text-sm sm:text-base ">
                                 {data?.para2}
                             </p>
-                            <p className="mt-4 max-w-80 mx-auto text-gray-300 text-xs">
+                            <p className="mt-4 max-w-2xl mx-auto text-gray-300 text-xs">
                                 {data?.para3}
                             </p>
 
@@ -45,7 +45,7 @@ function Hero({ data, children, herocardData }) {
                         </span>
                     </div>
                 ) : (
-                    <HeroCard herocardData={herocardData} />
+                    <HeroCard herocardData={herocardData} className={className} />
                 )}
             </div>
         </>

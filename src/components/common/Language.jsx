@@ -4,8 +4,8 @@ export default function Language() {
     return (<>
         <div className="bg-gray-400">
             <div className="container mx-auto p-4 flex justify-center items-center">
-                <div className="flex flex-col md:flex-row overflow-hidden p-6">
-                    <div className="md:w-1/2 flex flex-col justify-center p-6">
+                <div className="flex flex-col md:flex-row overflow-hidden p-6 justify-center">
+                    <div className="md:w-1/3 flex flex-col justify-center p-6">
                         <span className=" text-white text-xs border border-white px-3 py-1 rounded-full self-start">
                            Speak their Language
                         </span>
@@ -22,7 +22,7 @@ export default function Language() {
                             <CommonButton title="Explore More Voices" className="bg-purple-600 rounded-full text-white text-sm hover:bg-purple-700 transition" />
                         </div>
                     </div>
-                    <div className="md:w-1/2 flex justify-center items-center p-4">
+                    <div className="md:w-1/3 flex justify-center items-center p-4">
                         <div className="flex flex-col items-center mt-12 space-y-6">
                             {[
                                 { agent: "Agent 1", language: "English" },

@@ -3,7 +3,7 @@ import CommonButton from "./Button";
 export default function FinalThuoght() {
     return (
         <>
-            <div className="w-full bg-gray-400">
+            <div className="w-full">
                 <div className="container mx-auto px-4 py-16 relative text-center">
                     <div
                         className="absolute inset-0 bg-cover bg-center"

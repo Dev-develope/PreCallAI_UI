@@ -27,19 +27,19 @@ export const cardData = [
     id: 1,
     Heading: "Quick to access",
     para1: "1 Day",
-    para2: "from actions that reduce an organization's overall spending"
+    para2: "avg. time from contract to kick off on QCall AI"
   },
   {
     id: 2,
     Heading: "Quality of services",
     para1: "50% savings",
-    para2: "from actions that reduce an organization's overall spending"
+    para2: "from actions that reduce an organization s overall spending"
   },
   {
     id: 3,
     Heading: "Queue-Free",
     para1: "50+ features",
-    para2: "you will find and available for all necessary tasks"
+    para2: "you will find and available for all necessary tasks "
   }
 ]
 export const cardData2 = [
@@ -53,13 +53,13 @@ export const cardData2 = [
     id: 2,
     icon: "icon",
     Heading: "Appointment Scheduling",
-    para1: "provide 24/7 AI-Powered assistance without increasing staff costing",
+    para1: "AI handles bookings, reschedules, and confirmations seamlessly.",
   },
   {
     id: 3,
     icon: "icon",
     Heading: "survey and feedback Calls",
-    para1: "provide 24/7 AI-Powered assistance without increasing staff costing",
+    para1: "Collect valuable customer insights without human intervention.",
 
   }
 ]
@@ -294,11 +294,6 @@ export const menuItems = [
         sortDec: "Automate Appointment Reminder & follow Ups"
       },
       {
-        text: "HealthCare",
-        url: "/health-care",
-        sortDec: "Automate Appointment Reminder & follow Ups"
-      },
-      {
         text: "Real-Estate",
         url: "/real-estate",
         sortDec: "Imporove lead follow ups & property view Schedule"
@@ -338,7 +333,7 @@ export const menuItems = [
   },
   {
     id: 4,
-    text: "Resourece",
+    text: "Resources",
     url: "#",
     subMenu: [
       {
@@ -370,38 +365,44 @@ export const menuItems = [
     url: "/pricing",
   }
 ];
-
+import img from "../../public/images/new-partners/emaster-white.png"
 export const partners = [
   {
-    src: "/api/placeholder/200/60",
+    id:1,
+    src:img,
     alt: "Tech Innovators Inc.",
   },
-  {
-    src: "/api/placeholder/200/60",
+  {id:2,
+    src: img,
     alt: "Global Solutions Corp",
   },
-  {
-    src: "/api/placeholder/200/60",
+  {id:3,
+    src: img,
     alt: "Digital Dynamics",
   },
   {
-    src: "/api/placeholder/200/60",
+    id:4,
+    src: img,
     alt: "Enterprise Networks",
   },
   {
-    src: "/api/placeholder/200/60",
+    id:5,
+    src: img,
     alt: "Future Systems",
   },
   {
-    src: "/api/placeholder/200/60",
+    id:6,
+    src: img,
     alt: "Innovative Platforms",
   },
   {
-    src: "/api/placeholder/200/60",
+    id:7,
+    src: img,
     alt: "Synergy Solutions",
   },
   {
-    src: "/api/placeholder/200/60",
+    id:8,
+    src: img,
     alt: "Tech Horizons",
   }
 ]

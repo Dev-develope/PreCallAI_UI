@@ -36,8 +36,8 @@ export default function LogoSlider() {
     const [current, setCurrent] = useState(0);
 
     return (
-        <div className='bg-gray-200'>
-            <div className=" container mx-auto overflow-hidden w-full">
+        <div className='bg-gray-200 py-10'>
+            <div className=" container mx-auto overflow-hidden max-w-3xl px-5">
                 <Partners />
             </div>
             <div className="w-full flex flex-col items-center justify-center px-4 sm:px-8 md:px-16 lg:px-24 py-5">

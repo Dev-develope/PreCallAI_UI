@@ -33,11 +33,11 @@ export default function Navbar() {
                   {item.hasChildren ? <ChevronDown className="w-4 h-4 transition-transform duration-200 group-hover:rotate-180" /> : " "}
                 </Link>
                 {item.hasChildren && (
-                  <div className="absolute left-0 bg-[#11121c] min-w-[600px] text-white rounded-2xl shadow-lg p-4 hidden group-hover:flex flex-col">
+                  <div className="absolute left-0 bg-[#11121c] min-w-4xl text-white rounded-2xl shadow-lg p-4 hidden group-hover:flex flex-col">
                     <h3 className="text-sm text-gray-400 mb-3">AI Product Offer by QCall.ai</h3>
 
                     {/* Grid Layout for Submenu */}
-                    <div className="grid grid-cols-2 gap-1">
+                    <div className="grid grid-cols-3 gap-1">
                       {item.subMenu.map((sub, index) => (
                         <div key={index} className="flex items-center justify-between border rounded-2xl w-60 bg-[#171825] pl-2 pr-2 hover:bg-gray-800">
                           <Link href={sub.url} className="flex items-center space-x-3 p-2 rounded-2xl  transition">

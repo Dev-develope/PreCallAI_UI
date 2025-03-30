@@ -64,7 +64,7 @@ export default function Navbar() {
         </ul>
         {/* Buttons */}
         <div className="hidden md:flex items-center space-x-4">
-          <CommonButton className="text-white bg-gradient-to-r from-purple-500 to-purple-700 text-sm px-4 py-2 rounded-full" title="Sign up" />
+          <CommonButton className="bg-[#7c52fb] text-white bg-gradient-to-r from-purple-500 to-purple-700 text-sm px-4 py-2 rounded-full" title="Sign up" />
           <CommonButton className="text-black bg-white px-4 py-2 rounded-full" title="Log in" />
         </div>
 
@@ -89,7 +89,7 @@ export default function Navbar() {
               )}
             </div>
           ))}
-          <CommonButton className="text-white bg-gradient-to-r from-purple-500 to-purple-700 text-sm px-4 py-2 rounded-full" title="Sign up" />
+          <CommonButton className="bg-[#7c52fb] text-white bg-gradient-to-r from-purple-500 to-purple-700 text-sm px-4 py-2 rounded-full" title="Sign up" />
           <CommonButton className="text-black bg-white px-4 py-2 rounded-full" title="Log in" />
         </div>
       )}  
