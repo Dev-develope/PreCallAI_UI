@@ -3,11 +3,11 @@ import CommonButton from "./Button";
 
 export default function Future() {
     return (<>
-        <div className="bg-gray-300">
+        <div className="">
             <div className="container mx-auto space-x-10 flex justify-center items-center">
                 <div className="flex flex-col md:flex-row overflow-hidden p-6 justify-center">
-                    <div className="md:w-1/3 flex flex-col p-6">
-                        <span className="bg-gradient-to-r from-purple-500 to-green-500  text-xs font-semibold px-3 py-1 rounded-full self-start">
+                    <div className="md:w-1/2 flex flex-col p-6">
+                        <span className="text-xs font-semibold px-3 py-1 rounded-full self-start">
                             Ai-Powered
                         </span>
                         <h2 className="text-2xl font-bold text-gray-800 mt-4">
@@ -21,8 +21,14 @@ export default function Future() {
                         </ul>
                         <CommonButton title="Try QCall.ai Today" className="bg-[#7c52fb] w-1/2 mt-5 text-white" />
                     </div>
-                    <div className="md:w-1/3 flex justify-center items-center p-4">
-                        <Image src="/mnt/data/image.png" alt="Chat AI" width={450} height={300} className="w-full h-auto rounded-lg border border-gray-200 shadow-md" />
+                    <div className="md:w-1/3 flex justify-center items-center">
+                        <Image
+                            src="/path"
+                            alt="Chat AI"
+                            width={400}
+                            height={250}
+                            className="rounded-xl border border-gray-200 shadow-md object-contain p-2"
+                        />
                     </div>
                 </div>
             </div>

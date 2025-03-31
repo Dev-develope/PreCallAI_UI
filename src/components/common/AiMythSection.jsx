@@ -3,7 +3,7 @@ import CommonButton from "./Button";
 
 export default function AiMythsSection() {
     return (
-        <section className="text-center py-12 px-4 bg-gray-50">
+        <section className="text-center py-12 px-4 bg-[#f9f9f9]">
             <button className="px-4 py-1 text-sm bg-green-100 text-green-700 rounded-full">Key Benefits</button>
             <h2 className="text-3xl font-bold text-gray-900 mt-4">
                 Breaking AI Myths  The Truth <br /> About AI Call Centers
