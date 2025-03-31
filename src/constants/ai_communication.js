@@ -36,3 +36,28 @@ export const herocardDataAiCommunication = [
         ]
     }
 ];
+
+export const aiCommunicateCardDataA = [
+    {
+        span: "Communication Features",
+        h1: "Improve communication effectiveness",
+        list: [{ text: "Companies can use a single AI app to phone, chat, and meet, as well as transfer calls and move conversations to their preferred devices." }, { text: "Automate routine tasks, allowing your team to focus on higher value activities. Increase client engagement and happiness through tailored, efficient communication at scale." }],
+        imageSrc: "/mnt/data/image.png"
+    }
+]
+export const aiCommunicateCardDataB = [
+    {
+        span: "Empower Agents & Enhance Confidence",
+        h1: "Keep an eye on whats important",
+        list: [{ text: "Instead of managing every call, text messages or emails, let QCallAI handle the communication." }, { text: "Focus on building relationships and delivering value, so you can stay present and engaged with your clients and not distracted by routine tasks" },{ text: "Let AI take care of the details, so you can focus on what truly matters." }],
+        imageSrc: "/mnt/data/image.png"
+    }
+]
+export const aiCommunicateCardDataC = [
+    {
+        span: "Empower Agents & Enhance Confidence",
+        h1: "Take care that everything is at the same path",
+        list: [{ text: "When a team member misses a necessary customer contact or engagement, do not spend time manually updating them" }, { text: "QCallAI allows you to simply access a summary of a call, messageor email exchange right from the platform." },{ text: "Whether it is an outbound sales call or an inbound inquiry, QCallAI captures and organizes essential facts to keep your team up to date quickly and efficiently" },{ text: "With AI-generated communication automation, you can keep everyone on track and never have an opportunity." }],
+        imageSrc: "/mnt/data/image.png"
+    }
+]

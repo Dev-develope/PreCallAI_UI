@@ -53,25 +53,25 @@ export const cardDataC = [
 ]
 export const cardDataD = [
     {
-        span: "Empower Agents & Enhance Confidence",
-        h1: "Deliver Instant Solutions to Customer Inquiries",
-        list: [{ text: "Provide agents with immediate access to accurate answers using Qcall.ai's intelligent knowledge base." }, { text: "Ensuring they are always prepared to assist customers." }],
+        span: "Sharp Focus on Customer Satisfaction",
+        h1: "Enhance Quality Assurance",
+        list: [{ text: "Evaluate every interaction using Qcall.ais intelligent scorecards, ensuring each conversation meets your quality standards while accurately identifying customer intent" }, { text: "Evaluate every interaction using Qcall.ais intelligent scorecards, ensuring each conversation meets your quality standards while accurately identifying customer intent." }],
         imageSrc: "/mnt/data/image.png"
     }
 ]
 export const cardDataE = [
     {
         span: "Empower Agents & Enhance Confidence",
-        h1: "Deliver Instant Solutions to Customer Inquiries",
-        list: [{ text: "Provide agents with immediate access to accurate answers using Qcall.ai's intelligent knowledge base." }, { text: "Ensuring they are always prepared to assist customers." }],
+        h1: "Assess Customer Sentiment Effectively",
+        list: [{ text: "Use combined sentiment and intent data to derive accurate CSAT scores for all customer interactions, ensuring a comprehensive understanding of customer satisfaction." }, { text: "Evaluate every interaction using Qcall.ais intelligent scorecards, ensuring each conversation meets your quality standards while accurately identifying customer intent." }],
         imageSrc: "/mnt/data/image.png"
     }
 ]
 export const cardDataF = [
     {
         span: "Empower Agents & Enhance Confidence",
-        h1: "Deliver Instant Solutions to Customer Inquiries",
-        list: [{ text: "Provide agents with immediate access to accurate answers using Qcall.ai's intelligent knowledge base." }, { text: "Ensuring they are always prepared to assist customers." }],
+        h1: "Achieve Comprehensive Performance Oversight",
+        list: [{ text: "Access all performance metrics, monitor compliance and swiftly pinpoint coaching opportunities through the Qcall.ai Coaching Hub." }, { text: "Access all performance metrics, monitor compliance and swiftly pinpoint coaching opportunities through the Qcall.ai Coaching Hub." }],
         imageSrc: "/mnt/data/image.png"
     }
 ]

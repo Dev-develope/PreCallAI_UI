@@ -2,7 +2,7 @@ import CommonButton from "./Button";
 
 
 
-export default function Pricing({ pricingPlans }) {
+export default function Pricing({ pricingPlans,video }) {
     return (
         <div className="relative w-full h-[30rem] overflow-hidden">
             <video
@@ -11,8 +11,7 @@ export default function Pricing({ pricingPlans }) {
                 muted
                 className="absolute top-0 left-0 w-full h-full object-cover"
             >
-                <source src="/video.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
+                <source src={video} type="video/mp4" />
             </video>
 
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
@@ -20,7 +19,7 @@ export default function Pricing({ pricingPlans }) {
             {pricingPlans?.map((plan) => (
                 <div key={plan.id} className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6">
                     {plan.label && ( // Render only if plan.label is available
-                        <span className="text-sm px-3 py-1 border border-green-500 rounded-full">
+                        <span className="px-4 py-1 border border-gray-300 rounded-full text-xs">
                             {plan.label}
                         </span>
                     )}

@@ -24,7 +24,7 @@ export default function CommonCard({ cardDatas }) {
                         <h2 className="text-2xl font-bold text-gray-800 mt-4">
                             {card.h1}
                         </h2>
-                        <ul className="mt-4 space-y-2 text-gray-600">
+                        <ul className="mt-4 space-y-2 text-gray-600 text-sm">
                             {card.list.map((item, listIndex) => (
                                 <li key={listIndex} className="flex items-start">
                                     <span className="text-purple-500 mr-2">&#10003;</span>

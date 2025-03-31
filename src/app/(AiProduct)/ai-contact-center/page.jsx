@@ -13,7 +13,7 @@ import { AiContactHeroData, cardDataA, cardDataB, cardDataC, cardDataD, cardData
 // }
 export default function page() {
     return (<>
-        <Hero data={AiContactHeroData[0]} herocardData={herocardData}>
+        <Hero data={AiContactHeroData[0]} herocardData={herocardData} className="text-center">
             <SingleButton title="Schedule a Demo" />
         </Hero>
         <LogoSlider />
@@ -30,15 +30,5 @@ export default function page() {
         </div>
         <Pricing pricingPlans={pricingPlans} />
         <Exploring />
-
-        {/* <CardItem2 /> */}
-        {/* <CardItem3 /> */}
-        {/* <Language /> */}
-        {/* <Steps /> */}
-        {/* <AiMythsSection /> */}
-        {/* <Future /> */}
-        {/* <UpgradeSection /> */}
-        {/* <FinalThuoght /> */}
-        {/* <Faq /> */}
     </>)
 }

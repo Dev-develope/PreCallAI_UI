@@ -54,3 +54,44 @@ export const driveMoreRevenueData = [
         category: "High Selling"
     }
 ]
+
+export const aiSalesCardDataA = [
+    {
+        span: "Maximize Sales Performance with A",
+        h1: "Automate Conversation Assessment",
+        list: [{ text: "Effortlessly evaluate sales calls and track customer interactions over time using AI Scorecards for insightful analysis." }, { text: "Effortlessly evaluate sales calls and track customer interactions over time using AI Scorecards for insightful analysis." }],
+        imageSrc: "/mnt/data/image.png"
+    }
+]
+export const aiSalesCardDataB = [
+    {
+        span: "Maximize Sales Performance with A",
+        h1: "Maintain Team Oversight",
+        list: [{ text: "Access performance metrics at a glance and identify immediate opportunities for improvement with the AI-powerful tool." }, { text: "Access performance metrics at a glance and identify immediate opportunities for improvement with the AI-powerful tool." }],
+        imageSrc: "/mnt/data/image.png"
+    }
+]
+export const aiSalesCardDataC = [
+    {
+        span: "Maximize Sales Performance with A",
+        h1: "Get Real Time Alerts",
+        list: [{ text: "Utilize AI Call Purpose to discern caller intent and receive instant notifications based on key terms." }, { text: "Utilize AI Call Purpose to discern caller intent and receive instant notifications based on key terms." }],
+        imageSrc: "/mnt/data/image.png"
+    }
+]
+export const aiSalesCardDataD = [
+    {
+        span: "Maximize Sales Performance with A",
+        h1: "Bring everyone and everything together",
+        list: [{ text: "QCall Ai Sales brings communication channels, sales tools, and actionable insights together in one place" }, { text: "QCall Ai Sales brings communication channels, sales tools, and actionable insights together in one place" }],
+        imageSrc: "/mnt/data/image.png"
+    }
+]
+export const aiSalesCardDataE = [
+    {
+        span: "Maximize Sales Performance with A",
+        h1: "Help customers help themselves",
+        list: [{ text: "Deliver natural sounding responses to questions and free up reps for high value conversations with Ai Chatbot." }, { text: "Deliver natural sounding responses to questions and free up reps for high value conversations with Ai Chatbot." }],
+        imageSrc: "/mnt/data/image.png"
+    }
+]

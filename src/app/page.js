@@ -17,25 +17,35 @@ import UpgradeSection from "src/components/common/UpgradeSection";
 import { pricingPlans } from "src/constants/ai_contact_center";
 // import VideoComponent from "src/components/common/VideoComponent";
 import { HomeHeroSectionData } from "src/constants/HomeHeroSectionData";
+import ObjImage from "../../public/images/LandingPage/Object.png"
+import overlayImgfrom from "../../public/images/LandingPage/QCall.png"
+import LanguageIamge from "../../public/images/LandingPage/BG.png";
+import FrameImage from "../../public/images/LandingPage/Frame 1000004818.png"
+import Animationvideo2 from "../../public/images/LandingPage/QCallAi Animation 1.mp4"
+import CardImage from "../../public/images/LandingPage/DESIGN.png"
+import Avetar from "../../public/images/LandingPage/avatar-small-01.png"
+import backGroundVideo from "../../public/images/LandingPage/QCallAi Animation 2.mp4"
+import BackgroundVideo from "src/components/common/BackgroundVideo";
+// import BackgroundVideo from "src/components/common/BackgroundVideo";
 export default function Home() {
   return (
     <>
-      {/* <VideoComponent/> */}
-      <Hero data={HomeHeroSectionData[0]}>
+      {/* <BackgroundVideo path={backGroundVideo} /> */}
+      <Hero data={HomeHeroSectionData[0]} videoPath={backGroundVideo}>
         <DoubleButton title1="Try It Now For Free" title2="Book a Demo" />
       </Hero>
-      <Images />
+      <Images img={ObjImage} overlayImg={overlayImgfrom} />
       <CardItem1 />
-      <LogoSlider />
+      <LogoSlider avetar={Avetar} />
       <CardItem2 />
       <CardItem3 />
-      <Language />
-      <Steps />
+      <Language img={LanguageIamge} />
+      <Steps img={CardImage} />
       <AiMythsSection />
-      <Future />
-      <UpgradeSection />
+      <Future img={FrameImage} />
+      <UpgradeSection img={LanguageIamge} />
       <FinalThuoght />
-      <Pricing pricingPlans={pricingPlans}/>
+      <Pricing pricingPlans={pricingPlans} video={Animationvideo2} />
       <Faq />
       <Exploring />
     </>

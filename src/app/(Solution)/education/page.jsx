@@ -1,4 +1,5 @@
 import DoubleButton from "src/components/common/DoubleButton";
+import EducationCommunication from "src/components/common/EducationCommunication";
 import Exploring from "src/components/common/Exploring";
 import FutureCard from "src/components/common/FutureCard";
 import Hero from "src/components/common/Hero";
@@ -16,8 +17,9 @@ export default function page() {
         <LogoSlider />
         <InsuranceSafetySection data={reatilSafety[0]} />
         <FutureCard data={stuProInstrucCommuData[0]} />
-        <RealEstateCommunciation data={eduVertualCommData[0]} />
-        <RealEstateCommunciation data={eduVertualCommData2[0]} />
+        {/* <RealEstateCommunciation data={eduVertualCommData[0]} />
+        <RealEstateCommunciation data={eduVertualCommData2[0]} /> */}
+        <EducationCommunication/>
         {/* <FutureCard data={smartFeatureData[0]} /> */}
         <Exploring />
     </>)

@@ -1,10 +1,10 @@
 import Image from "next/image";
 import CommonButton from "./Button";
 import img from "../../../public/images/robo.jpg"
-export default function UpgradeSection() {
+export default function UpgradeSection({img}) {
     return (
         <div className="relative w-full flex items-center justify-center px-4 py-16">
-            
+
             {/* Background Image */}
             <div className="absolute inset-0 w-full h-full -z-10">
                 <Image
@@ -17,7 +17,7 @@ export default function UpgradeSection() {
             </div>
             {/* Content on Top of Image */}
             <div className="relative z-10 text-center text-white flex flex-col items-center">
-                <span className="px-4 py-1 border border-green-300 rounded-full text-xs bg-black/50">
+                <span className="px-4 py-1 border border-gray-300 rounded-full text-xs">
                     Upgrade
                 </span>
                 <h2 className="text-[clamp(1.5rem,4vw,2.5rem)] font-bold mt-4">

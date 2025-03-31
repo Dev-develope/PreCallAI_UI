@@ -1,7 +1,7 @@
 import Image from "next/image";
 import CommonButton from "./Button";
 import img from "../../../public/images/robo.jpg"
-export default function Language() {
+export default function Language({img}) {
     return (
         <div className="relative  flex items-center justify-center px-6">
             
@@ -21,17 +21,17 @@ export default function Language() {
                 <div className="flex flex-col md:flex-row overflow-hidden p-6 justify-center rounded-lg">
                     
                     {/* Left Section - Text Content */}
-                    <div className="md:w-1/2 flex flex-col justify-center p-6">
+                    <div className="md:w-1/2 flex flex-col justify-center p-6 ">
                         <span className="text-white text-xs border border-white px-3 py-1 rounded-full self-start">
                             Speak their Language
                         </span>
-                        <h2 className="text-2xl font-bold text-gray-800 mt-4">
+                        <h2 className="text-2xl font-bold text-white mt-4">
                             QCall.ai Supports <br />Multiple Languages
                         </h2>
-                        <ul className="mt-4 space-y-2 text-gray-600">
+                        <ul className="mt-4 space-y-2 text-white">
                             <li>Whether your audience speaks English, Spanish, Hindi, Gujarati, Bengali, Tamil, Kannada, Marathi, or more, QCall.ai handles conversations naturally in multiple languages.</li>
                         </ul>
-                        <p className="mt-2 text-sm text-gray-400 max-w-sm">
+                        <p className="mt-2 text-sm text-white max-w-sm">
                             Need a custom voice or regional dialect? We'll train it specifically for you!
                         </p>
                         <div className="mt-6">

@@ -1,14 +1,14 @@
 import Image from "next/image";
 import CommonButton from "./Button";
 
-export default function Future() {
+export default function Future({img}) {
     return (<>
         <div className="">
             <div className="container mx-auto space-x-10 flex justify-center items-center">
                 <div className="flex flex-col md:flex-row overflow-hidden p-6 justify-center">
                     <div className="md:w-1/2 flex flex-col p-6">
-                        <span className="text-xs font-semibold px-3 py-1 rounded-full self-start">
-                            Ai-Powered
+                        <span className="px-4 w-1/4 text-center py-1 border border-gray-300 rounded-full text-xs text-black">
+                            Key Benefits
                         </span>
                         <h2 className="text-2xl font-bold text-gray-800 mt-4">
                             The Future of AI-Powered Calling is Here
@@ -23,7 +23,7 @@ export default function Future() {
                     </div>
                     <div className="md:w-1/3 flex justify-center items-center">
                         <Image
-                            src="/path"
+                            src={img}
                             alt="Chat AI"
                             width={400}
                             height={250}

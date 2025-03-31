@@ -32,11 +32,11 @@ const testimonials = [
 ];
 
 
-export default function LogoSlider() {
+export default function LogoSlider({avetar}) {
     const [current, setCurrent] = useState(0);
 
     return (
-        <div className='bg-gray-200 py-10'>
+        <div className='bg-[#f9f9f9] py-10'>
             <div className=" container mx-auto overflow-hidden max-w-3xl px-5">
                 <Partners />
             </div>
@@ -64,7 +64,7 @@ export default function LogoSlider() {
                 <div className='flex justify-around w-full mt-5 container mx-auto'>
                     <div className="mt-6 flex gap-4">
                         <Image
-                            src={testimonials[current].image}
+                            src={avetar}
                             alt={testimonials[current].author}
                             width={48}
                             height={48}

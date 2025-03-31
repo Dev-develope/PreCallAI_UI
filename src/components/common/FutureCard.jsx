@@ -4,10 +4,13 @@ import CommonButton from './Button';
 
 // Feature card component
 const FeatureCard = ({ icon, title, description }) => (
-    <div className="bg-white border border-black rounded-2xl p-6 flex flex-col gap-4 w-full h-full">
-        <div className="text-purple-500">{icon}</div>
-        <h3 className="font-semibold text-lg">{title}</h3>
-        <p className="text-gray-700 text-sm">{description}</p>
+
+    <div className='p-[1px] bg-linear-to-r from-purple-300 via-green-200 to-green-200  rounded-2xl'>
+        <div className="bg-white rounded-2xl p-6 flex flex-col gap-4 w-full h-full">
+            <div className="text-purple-500">{icon}</div>
+            <h3 className="font-semibold text-lg">{title}</h3>
+            <p className="text-gray-700 text-sm">{description}</p>
+        </div>
     </div>
 );
 
@@ -37,7 +40,7 @@ const FutureCard = ({ data }) => {
         <div className="bg-gray-50 flex justify-center py-20">
             <div className="max-w-4xl w-full flex flex-col items-center text-center">
                 {/* Badge */}
-                <div className="inline-block px-4 py-1 rounded-full bg-white text-purple-800 text-sm mb-6 border border-purple-200">
+                <div className="inline-block px-4 py-1 rounded-full bg-white text-sm mb-6 border border-purple-200">
                     {data.badge}
                 </div>
 

@@ -1,3 +1,5 @@
+import { BriefcaseBusiness, ChartArea, ChartNoAxesCombined, Earth, EarthIcon, Lightbulb, TvMinimal } from "lucide-react";
+
 export const retailHeroData = [
     {
         id: 1,
@@ -607,6 +609,7 @@ export const educationHerocardData = [{
     sectionTitle: "Trusted Platform",
     mainHeading: "A Smarter Way to Connect & Learn",
     subHeading: "Education is more than just lessons it s about communication, collaboration, and engagement. QCallAI creates a seamless learning environment where students, instructors, and executives stay connected effortlessly",
+    bottmHeading: "Transform the way you teach, learn, and connect effortlessly!",
     cards: [
         {
             title: "One on-One Calls",
@@ -660,17 +663,17 @@ export const stuProInstrucCommuData = [
                 description: 'Send automated appointment reminders, message drops, and updates to help real estate professionals stay on top of their tasks.'
             },
             {
-                icon: <LightbulbIcon />,
+                icon: <BriefcaseBusiness />,
                 title: 'Never Miss an Important Call',
                 description: 'Say goodbye to fragmented communication! Keep calls, emails, and messages synchronized in a single platform for a smooth, uninterrupted workflow.'
             },
             {
-                icon: <ProfileIcon />,
+                icon: <ChartArea />,
                 title: 'Never Miss a Crucial Call, Email, or Message',
                 description: 'Set up exclusive, dedicated communication lines to ensure every message, email, or call reaches the right person right when it matters.'
             },
             {
-                icon: <AutomationIcon />,
+                icon: <Earth />,
                 title: 'Instant Engagement Through Smart Messaging',
                 description: 'Enhance collaboration with automated reminders, updates, and important announcements via text or email—keeping faculty and students informed in real time.'
             }
@@ -694,19 +697,19 @@ export const eduVertualCommData = [
                 title: "No Downloads. No Extra Apps. Just Instant Connectivity.",
                 description:
                     "Students and educators can engage through calls, emails, and texts without the need for additional apps or software.",
-                icon: "💻",
+                icon: <EarthIcon />,
             },
             {
                 title: "Boost Collaboration Across Channels",
                 description:
                     "Leverage AI powered notifications, call recordings, and personalized messages to enhance student engagement and maximize learning outcomes.",
-                icon: "📞",
+                icon: <TvMinimal />,
             },
             {
                 title: "Strengthen Instructor Student Relationships",
                 description:
                     "Create a dynamic educational environment where professors can guide students effortlessly through real time, multi channelcommunication.",
-                icon: "👤",
+                icon: <Lightbulb />,
             },
         ],
     },
@@ -728,19 +731,19 @@ export const eduVertualCommData2 = [
                 title: "HIPAA-Compliant & EnterpriseGrade Protection",
                 description:
                     "Patient privacy is our top priority. QCallAI secures every call, message, and interaction with industry - leading encryption and security measures.",
-                icon: "💻",
+                icon: <BriefcaseBusiness />,
             },
             {
                 title: "Role-Based Access Control",
                 description:
                     "Ensure sensitive patient data is accessible only to authorized personnel —nothing more, nothing less.",
-                icon: "📞",
+                icon: <ChartNoAxesCombined />,
             },
             {
                 title: "Adaptive Data Retention",
                 description:
                     "Customize how and when patient records are stored or deleted, ensuring compliance without hassle.",
-                icon: "👤",
+                icon: <Earth />,
             },
         ],
     },

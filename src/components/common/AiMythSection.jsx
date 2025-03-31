@@ -4,7 +4,9 @@ import CommonButton from "./Button";
 export default function AiMythsSection() {
     return (
         <section className="text-center py-12 px-4 bg-[#f9f9f9]">
-            <button className="px-4 py-1 text-sm bg-green-100 text-green-700 rounded-full">Key Benefits</button>
+            <span className="px-4 py-1 border border-gray-300 rounded-full text-xs text-black">
+                Key Benefits
+            </span>
             <h2 className="text-3xl font-bold text-gray-900 mt-4">
                 Breaking AI Myths  The Truth <br /> About AI Call Centers
             </h2>
@@ -26,8 +28,8 @@ export default function AiMythsSection() {
             <p className="text-gray-600 mt-6">
                 <span className="font-medium">Smarter Workflows</span> = <span className="font-medium">Better Efficiency</span> = <span className="font-medium">More Revenue</span>
             </p>
-            <CommonButton title="Try QCall.ai today" className="bg-[#7c52fb] mt-5 text-white text-sm rounded-full"/>
-         
+            <CommonButton title="Try QCall.ai today" className="bg-[#7c52fb] mt-5 text-white text-sm rounded-full" />
+
         </section>
     );
 }

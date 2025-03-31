@@ -310,7 +310,7 @@ export const menuItems = [
       },
       {
         text: "HealthCare",
-        url: "/health-care",
+        url: "/technology",
         sortDec: "Automate Appointment Reminder & follow Ups"
       },
       {
@@ -353,7 +353,7 @@ export const menuItems = [
       },
       {
         text: "Help Centers",
-        url: "/help-centers",
+        url: "/helpcenter",
         sortDec: "Manging your Account,Safety And security"
       }
     ],
@@ -365,6 +365,7 @@ export const menuItems = [
     url: "/pricing",
   }
 ];
+
 import img from "../../public/images/new-partners/emaster-white.png"
 export const partners = [
   {
