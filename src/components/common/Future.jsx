@@ -1,14 +1,14 @@
 import Image from "next/image";
 import CommonButton from "./Button";
 
-export default function Future() {
+export default function Future({img}) {
     return (<>
-        <div className="bg-gray-300">
-            <div className="container mx-auto  flex justify-center items-center">
-                <div className="flex flex-col md:flex-row overflow-hidden p-6">
+        <div className="">
+            <div className="container mx-auto space-x-10 flex justify-center items-center">
+                <div className="flex flex-col md:flex-row overflow-hidden p-6 justify-center">
                     <div className="md:w-1/2 flex flex-col p-6">
-                        <span className="bg-gradient-to-r from-purple-500 to-green-500  text-xs font-semibold px-3 py-1 rounded-full self-start">
-                            Ai-Powered
+                        <span className="px-4 w-1/4 text-center py-1 border border-gray-300 rounded-full text-xs text-black">
+                            Key Benefits
                         </span>
                         <h2 className="text-2xl font-bold text-gray-800 mt-4">
                             The Future of AI-Powered Calling is Here
@@ -19,10 +19,16 @@ export default function Future() {
                             <li className="flex items-start">Our parent company, TinyCheque, is dedicated to driving AI advancements and creating meaningful solutions that redefine industries.
                                 India is innovating, and we’re leading the charge.</li>
                         </ul>
-                        <CommonButton title="Try PreCallAi Today" />
+                        <CommonButton title="Try QCall.ai Today" className="bg-[#7c52fb] w-1/2 mt-5 text-white" />
                     </div>
-                    <div className="md:w-1/2 flex justify-center items-center p-4">
-                        <Image src="/mnt/data/image.png" alt="Chat AI" width={450} height={300} className="w-full h-auto rounded-lg border border-gray-200 shadow-md" />
+                    <div className="md:w-1/3 flex justify-center items-center">
+                        <Image
+                            src={img}
+                            alt="Chat AI"
+                            width={400}
+                            height={250}
+                            className="rounded-xl border border-gray-200 shadow-md object-contain p-2"
+                        />
                     </div>
                 </div>
             </div>

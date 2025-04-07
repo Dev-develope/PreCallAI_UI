@@ -32,13 +32,13 @@ const testimonials = [
 ];
 
 
-export default function LogoSlider() {
+export default function LogoSlider({avetar}) {
     const [current, setCurrent] = useState(0);
-    
+
     return (
-        <div className='bg-gray-200'>
-            <div className=" container mx-auto overflow-hidden w-full">
-               <Partners/>
+        <div className='bg-[#f9f9f9] py-10'>
+            <div className=" container mx-auto overflow-hidden max-w-3xl px-5">
+                <Partners />
             </div>
             <div className="w-full flex flex-col items-center justify-center px-4 sm:px-8 md:px-16 lg:px-24 py-5">
                 <div className="max-w-3xl text-center">
@@ -61,31 +61,33 @@ export default function LogoSlider() {
                     </p>
                 </div>
 
-                <div className="mt-6 flex gap-4">
-                    <Image
-                        src={testimonials[current].image}
-                        alt={testimonials[current].author}
-                        width={48}
-                        height={48}
-                        className="rounded-full"
-                    />
-                    <div>
-                        <p className="font-semibold text-gray-900">{testimonials[current].author}</p>
-                        <p className="text-sm text-gray-500">
-                            {testimonials[current].role} @ {testimonials[current].company}
-                        </p>
-                    </div>
-                </div>
-
-                <div className="mt-6 flex gap-2">
-                    {testimonials.map((_, i) => (
-                        <span
-                            key={i}
-                            className={`h-2 w-6 rounded-full transition-colors ${current === i ? 'bg-purple-500' : 'bg-pink-200'
-                                }`}
-                            onClick={() => setCurrent(i)}
+                <div className='flex justify-around w-full mt-5 container mx-auto'>
+                    <div className="mt-6 flex gap-4">
+                        <Image
+                            src={avetar}
+                            alt={testimonials[current].author}
+                            width={48}
+                            height={48}
+                            className="rounded-full"
                         />
-                    ))}
+                        <div>
+                            <p className="font-semibold text-gray-900">{testimonials[current].author}</p>
+                            <p className="text-sm text-gray-500">
+                                {testimonials[current].role} @ {testimonials[current].company}
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="mt-6 flex gap-2">
+                        {testimonials.map((_, i) => (
+                            <span
+                                key={i}
+                                className={`h-2 w-6 rounded-full transition-colors ${current === i ? 'bg-purple-500' : 'bg-pink-200'
+                                    }`}
+                                onClick={() => setCurrent(i)}
+                            />
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>

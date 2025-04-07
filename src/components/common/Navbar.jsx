@@ -20,7 +20,7 @@ export default function Navbar() {
         <div className="flex items-center w-1/2 justify-around space-x-8">
           <Link href="/">
             <div className="text-white font-bold text-xl flex items-center">
-              <span className="text-blue-400">PreCall</span>.Ai
+              <span className="text-blue-400">Q</span>Call.Ai
             </div>
             <p className="text-[10px] text-gray-400">Quick | Quality</p>
           </Link>
@@ -33,13 +33,13 @@ export default function Navbar() {
                   {item.hasChildren ? <ChevronDown className="w-4 h-4 transition-transform duration-200 group-hover:rotate-180" /> : " "}
                 </Link>
                 {item.hasChildren && (
-                  <div className="absolute left-0 bg-[#11121c] min-w-[600px] text-white rounded-2xl shadow-lg p-4 hidden group-hover:flex flex-col">
-                    <h3 className="text-sm text-gray-400 mb-3">AI Product Offer by PreCallAI</h3>
+                  <div className="absolute left-0 bg-[#11121c] min-w-4xl text-white rounded-2xl shadow-lg p-4 hidden group-hover:flex flex-col">
+                    <h3 className="text-sm text-gray-400 mb-3">AI Product Offer by QCall.ai</h3>
 
                     {/* Grid Layout for Submenu */}
-                    <div className="grid grid-cols-2 gap-1">
+                    <div className="grid grid-cols-3 gap-1">
                       {item.subMenu.map((sub, index) => (
-                        <div key={sub.url} className="flex items-center justify-between border rounded-2xl w-60 bg-[#171825] pl-2 pr-2 hover:bg-gray-800">
+                        <div key={index} className="flex items-center justify-between border rounded-2xl w-60 bg-[#171825] pl-2 pr-2 hover:bg-gray-800">
                           <Link href={sub.url} className="flex items-center space-x-3 p-2 rounded-2xl  transition">
                             {index % 4 === 0 && <LayoutGrid size={20} />}
                             {index % 4 === 1 && <Settings size={20} />}
@@ -48,7 +48,7 @@ export default function Navbar() {
 
                             <div>
                               <p className="text-sm">{sub.text}</p>
-                              <p className="text-xs text-gray-400">Short description</p>
+                              <p className="text-xs text-gray-400">{sub.sortDec}</p>
                             </div>
                           </Link>
                           <div className="p1 rounded-full border border-gray-500">

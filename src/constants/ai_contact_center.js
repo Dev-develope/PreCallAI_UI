@@ -1,3 +1,32 @@
+export const AiContactHeroData = [
+    {
+        id: 1,
+        heading: "Ai contact center",
+        h1: "A new Way Of",
+        h2: "Calling Task",
+        // para2: "Say Goodbye to Repetitive Calls. Let AI Handle It",
+        para3: "Accelarate customer satisfation while simplifying operation of calling tasks.Enhance the Customer experience with the  AI Contact Center"
+    }
+];
+
+export const pricingPlans = [
+    {
+        id: 1,
+        label: "Pricing",
+        title: "QCall.ai costs start from $0.03 per minute.",
+        description: "Try QCall.ai free for 14 days and explore why hundreds of companies big and small stay connected with QCall.",
+        buttonText: "Explore more plans",
+    },
+];
+
+export const HumanLikeVoice = [
+    {
+        id: 1,
+        label: "",
+        title: "Human Like Voice agent to Handle incoming calls. Non-stop",
+        buttonText: "Create your Ai agent in 30 Seconds",
+    },
+]
 export const cardDataA = [
     {
         span: "Empower Agents & Enhance Confidence",
@@ -24,25 +53,52 @@ export const cardDataC = [
 ]
 export const cardDataD = [
     {
-        span: "Empower Agents & Enhance Confidence",
-        h1: "Deliver Instant Solutions to Customer Inquiries",
-        list: [{ text: "Provide agents with immediate access to accurate answers using Qcall.ai's intelligent knowledge base." }, { text: "Ensuring they are always prepared to assist customers." }],
+        span: "Sharp Focus on Customer Satisfaction",
+        h1: "Enhance Quality Assurance",
+        list: [{ text: "Evaluate every interaction using Qcall.ais intelligent scorecards, ensuring each conversation meets your quality standards while accurately identifying customer intent" }, { text: "Evaluate every interaction using Qcall.ais intelligent scorecards, ensuring each conversation meets your quality standards while accurately identifying customer intent." }],
         imageSrc: "/mnt/data/image.png"
     }
 ]
 export const cardDataE = [
     {
         span: "Empower Agents & Enhance Confidence",
-        h1: "Deliver Instant Solutions to Customer Inquiries",
-        list: [{ text: "Provide agents with immediate access to accurate answers using Qcall.ai's intelligent knowledge base." }, { text: "Ensuring they are always prepared to assist customers." }],
+        h1: "Assess Customer Sentiment Effectively",
+        list: [{ text: "Use combined sentiment and intent data to derive accurate CSAT scores for all customer interactions, ensuring a comprehensive understanding of customer satisfaction." }, { text: "Evaluate every interaction using Qcall.ais intelligent scorecards, ensuring each conversation meets your quality standards while accurately identifying customer intent." }],
         imageSrc: "/mnt/data/image.png"
     }
 ]
 export const cardDataF = [
     {
         span: "Empower Agents & Enhance Confidence",
-        h1: "Deliver Instant Solutions to Customer Inquiries",
-        list: [{ text: "Provide agents with immediate access to accurate answers using Qcall.ai's intelligent knowledge base." }, { text: "Ensuring they are always prepared to assist customers." }],
+        h1: "Achieve Comprehensive Performance Oversight",
+        list: [{ text: "Access all performance metrics, monitor compliance and swiftly pinpoint coaching opportunities through the Qcall.ai Coaching Hub." }, { text: "Access all performance metrics, monitor compliance and swiftly pinpoint coaching opportunities through the Qcall.ai Coaching Hub." }],
         imageSrc: "/mnt/data/image.png"
     }
 ]
+
+
+export const herocardData = [{
+    sectionTitle : "What Achievement At Qcall.ai",
+    mainHeading : "Full operational capability from scratch",
+    subHeading : "to improve engagement and drive results.",
+    cards : [
+        {
+          title: "Rapidly Launch",
+          description:
+            "Establish new contact centres globally in just minutes, managing all your agents seamlessly from a single platform.",
+          extraText: "Quick support center",
+        },
+        {
+          title: "Agents and Customers",
+          description:
+            "Empower agents to easily call, message, and meet with customers, allowing seamless transfers to their preferred devices through one AI-driven application.",
+          extraText: "Connect Accross All Channels",
+        },
+        {
+          title: "Tech Stack",
+          description:
+            "Reduce expenses and enhance efficiency by consolidating multiple contact centre tools into one powerful platform.",
+          extraText: "Stream line and boost profits",
+        },
+      ]
+}]

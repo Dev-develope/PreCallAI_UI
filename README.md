@@ -37,7 +37,7 @@ export default function Navbar() {
 
               {item.hasChildren && (
                 <div className="absolute left-0 bg-[#11121c] min-w-[600px] text-white rounded-2xl shadow-lg p-4 hidden group-hover:flex flex-col">
-                  <h3 className="text-sm text-gray-400 mb-3">AI Product Offer by PreCallAI</h3>
+                  <h3 className="text-sm text-gray-400 mb-3">AI Product Offer by QCall.ai</h3>
 
                   {/* Grid Layout for Submenu */}
                   <div className="grid grid-cols-2 gap-1">
@@ -64,7 +64,7 @@ export default function Navbar() {
         </ul>
         {/* Buttons */}
         <div className="hidden md:flex items-center space-x-4">
-          <CommonButton className="text-white bg-gradient-to-r from-purple-500 to-purple-700 text-sm px-4 py-2 rounded-full" title="Sign up" />
+          <CommonButton className="bg-[#7c52fb] text-white bg-gradient-to-r from-purple-500 to-purple-700 text-sm px-4 py-2 rounded-full" title="Sign up" />
           <CommonButton className="text-black bg-white px-4 py-2 rounded-full" title="Log in" />
         </div>
 
@@ -89,7 +89,7 @@ export default function Navbar() {
               )}
             </div>
           ))}
-          <CommonButton className="text-white bg-gradient-to-r from-purple-500 to-purple-700 text-sm px-4 py-2 rounded-full" title="Sign up" />
+          <CommonButton className="bg-[#7c52fb] text-white bg-gradient-to-r from-purple-500 to-purple-700 text-sm px-4 py-2 rounded-full" title="Sign up" />
           <CommonButton className="text-black bg-white px-4 py-2 rounded-full" title="Log in" />
         </div>
       )}  
@@ -98,3 +98,4 @@ export default function Navbar() {
 }
 
 
+rgb(124 82 251)
